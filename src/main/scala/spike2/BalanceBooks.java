@@ -161,9 +161,6 @@ public class BalanceBooks implements Closeable {
         return success;
     }
 
-    /**
-     * Frees up the underlying resources common to all clients.
-     */
     public void close() {
         try {
             if (conn != null) {

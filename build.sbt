@@ -13,7 +13,9 @@ libraryDependencies ++= Seq(
   "org.apache.tephra" % "tephra-api" % "0.15.0-incubating",
   "org.apache.hbase" % "hbase-client" % "1.2.0",
   "org.apache.hbase" % "hbase-common" % "1.2.0",
-  "org.apache.tephra" % "tephra-hbase-compat-1.2" % "0.15.0-incubating",
-    // https://mvnrepository.com/artifact/org.apache.hbase/hbase-server
-"org.apache.hbase" % "hbase-server" % "1.0.0"
+  "org.apache.tephra" % "tephra-hbase-compat-1.2" % "0.15.0-incubating"
 )
+
+libraryDependencies += "org.apache.spark" % "spark-sql_2.11" % "2.3.0"
+libraryDependencies += "org.apache.hadoop" % "hadoop-mapreduce-client-core" % "2.6.0"
+libraryDependencies += "org.apache.hbase" % "hbase-server" % "1.2.6.1"

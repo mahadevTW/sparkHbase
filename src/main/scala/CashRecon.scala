@@ -9,7 +9,10 @@ object CashRecon {
     val transactionTillToday = DaysTrans(List(10, 20, 30, 40))
     val lastReconPosition = Position(100)
     val latestPositionToday = Position(200)
-    lastReconPosition plus transactionTillToday equalTo latestPositionToday writeResultToTable
+
+
+    lastReconPosition.plus(transactionTillToday).equalTo(latestPositionToday) writeResultToTable
+
   }
 }
 

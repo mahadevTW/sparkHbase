@@ -1,0 +1,4 @@
+<property>
+    <name>data.tx.snapshot.dir</name>
+    <value>/tmp</value>
+</property>
